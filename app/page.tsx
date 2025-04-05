@@ -16,7 +16,7 @@ export default async function Home({
 
   return (
     <main className="flex flex-col-reverse  lg:flex-row min-h-screen">
-      <div className="lg:w-2/3 p-6 overflow-y-auto h-full bg-gradient-to-b from-blue-200 to-blue-400">
+      <div className="lg:w-2/3 p-6 overflow-y-auto min-h-screen h-full bg-gradient-to-b from-blue-200 to-blue-400">
         <h2 className="text-2xl font-bold mb-4 text-gray-800">
           Forecast for the Next {days} Day{days > 1 ? "s" : ""}
         </h2>
